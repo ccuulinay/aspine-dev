@@ -62,3 +62,11 @@ class AspineClient:
         except Exception as e:
             logging.error(f"Error.")
             logging.exception(e)
+
+    def list(self):
+        try:
+            r = self._get_mem_data().keys()
+            return r
+        except Exception as e:
+            logging.error(f"Error.")
+            logging.exception(e)
