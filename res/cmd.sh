@@ -1,4 +1,5 @@
-
+# To install from local
+python setup.py install
 
 
 # To build dist
